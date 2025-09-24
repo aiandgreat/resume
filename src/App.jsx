@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import profilePic from './images/profile.png';
+
 const App = () => {
   function ContactSection() {
   return (
@@ -205,9 +205,9 @@ const jobEntries = [
           <aside className="sm:col-span-1 bg-[#094d73]">
             <header className="flex flex-col items-left px-6 bg-[#094d73] text-black">
               <div className="flex flex-col bg-[#094d73]">
-                <div className="w-60 h-60 sm:w-64 sm:h-64 overflow-hidden mx-auto mt-4 p-1 flex items-center justify-center">
+                <div className="w-[250px] h-[250px] overflow-hidden mx-auto mt-4 flex items-center justify-center">
                   <img
-                    src={profilePic}
+                    src="https://i.ibb.co/1fqQPLbj/profile-min.png"
                     alt="Profile"
                     className="object-cover w-full h-full"
                   />
