@@ -43,7 +43,7 @@ const App = () => {
     <div className="bg-white pl-6 pr-8 pt-8">
       <div className="mb-6">
         <hr className="border-t-2 border-gray-300 mb-2" />
-        <h2 className="text-2xl font-bold text-[#094d73]">Education</h2>
+        <h2 className="text-2xl font-bold text-[#17567b]">Education</h2>
         <hr className="border-t-2 border-gray-300 mt-2" />
       </div>
       <div className="space-y-6">
@@ -93,7 +93,7 @@ const App = () => {
     <div className="bg-white pl-6 pr-8 pt-8">
       <div className="mb-4">
         <hr className="border-t-2 border-gray-300 mb-2" />
-        <h2 className="text-2xl font-bold text-[#094d73]">Experience</h2>
+        <h2 className="text-2xl font-bold text-[#17567b]">Experience</h2>
         <hr className="border-t-2 border-gray-300 mt-2" />
       </div>
 
