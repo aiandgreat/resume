@@ -1,5 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import profilePic from './images/profile.png';
 
 const App = () => {
   function ContactSection() {
@@ -207,7 +208,7 @@ const jobEntries = [
               <div className="flex flex-col bg-[#094d73]">
                 <div className="w-[250px] h-[250px] overflow-hidden mx-auto mt-4 flex items-center justify-center">
                   <img
-                    src="https://i.ibb.co/1fqQPLbj/profile-min.png"
+                    src={profilePic}
                     alt="Profile"
                     className="object-cover w-full h-full"
                   />
