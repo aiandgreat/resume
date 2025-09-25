@@ -91,7 +91,7 @@ const App = () => {
  
   function ExperienceSection({ jobEntries }) {
   return (
-    <div className="bg-white pl-6 pr-8 pt-8">
+    <div className="bg-white pl-6 pr-8 pt-8 pb-8">
       <div className="mb-4">
         <hr className="border-t-2 border-gray-300 mb-2" />
         <h2 className="text-2xl font-bold text-[#17567b]">Experience</h2>
@@ -154,8 +154,9 @@ const jobEntries = [
     company: "Student Society on Information Technology Education (SSITE) - UA Chapter",
     responsibilities: [
       "In-charge of overall decision making for the organization.",
-      "Orient and train new officers on document writing and event preparations",
-      "Come up with new events to engage students while promoting school core values",
+      "Oversee the organization's events and projects.",
+      "Orient and train new officers on document writing and event preparations.",
+      "Come up with new events to engage students while promoting school core values.",
     ],
   },
   {
@@ -165,9 +166,9 @@ const jobEntries = [
     company:
       "Student Society on Information Technology Education (SSITE) - UA Chapter",
     responsibilities: [
-      "Serve as a substitute in the absence of the president",
-      "Monitor events and projects progress",
-      "Assist the president in decision making",
+      "Serve as a substitute in the absence of the president.",
+      "Monitor events and projects progress.",
+      "Assist the president in the overall decision making.",
     ],
   },
   {
@@ -177,9 +178,10 @@ const jobEntries = [
     company:
       "Student Society on Information Technology Education (SSITE) - UA Chapter",
     responsibilities: [
-      "In-charge of organizing and managing sports events",
-      "Promotes sports related events to the other students",
-      "Assist in overall planning and execution of general organization tasks",
+      "In-charge of organizing and managing sports related events and competitions.",
+      "Participate in local sports related events to represent the school and department.",
+      "Promotes sports related events to the other students.",
+      "Assist in overall planning and execution of general organization tasks.",
     ],
   },
   
